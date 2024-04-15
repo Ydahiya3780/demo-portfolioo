@@ -1,0 +1,131 @@
+/* .parent{
+    width: 400px;
+    height: 400px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+
+body{
+    background-color:rgb(32, 28, 90);
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px;
+    
+    /* border: 1px solid black; */
+    /* align-items: right; */
+}
+
+.navmenu{
+    display: flex;
+    list-style: none;
+    align-items: right;
+    column-gap: 12px;
+}
+
+.nav-link {
+    /* display:flex;
+    justify-content: space-between;
+    gap: 20px; */
+    color: aliceblue;
+    text-decoration: none;
+}
+a:visited{
+    /* text-decoration: none;
+    color: white; */
+    color: aliceblue;
+}
+.homepage{
+    display: flex;
+   min-height: 600px;
+   /* border: 1px solid wheat;  */
+   align-items: center;
+  
+}
+.profile{
+    /* border: 1px solid black; */
+    flex-basis: 50%;
+    padding: 80px 40px;
+    flex-basis: 50% ;  
+    margin-bottom: 200px;
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 450px;
+    width: 450px;
+    margin-top: 80px;
+    margin-right: 120px;
+}
+.navbar{
+    background-color: black;
+    color: aliceblue;
+}
+.foot{
+text-align: center;
+margin-top: 37%;
+bottom: 10px;
+right: 650px;
+background-color: rgb(8, 6, 6);
+color: rgb(97, 77, 47);
+border: 100px;
+padding:10px 150px;
+text-decoration: none;
+font-size: 16px;
+
+}
+.about{
+    text-align: center;
+}
+.info{
+    width: 60%;
+    margin: 0 auto;
+}
+.skills-wrapper{
+    margin-top: 64px;
+}
+.skills{
+display: flex;
+justify-content: center;
+gap: 24px;
+list-style: none;
+}
+
+.skill{
+    background-color: rgb(54, 104, 148);
+    color: black;
+    padding: 16px 24px;
+    font-size: 24px;
+    font-weight: 600;
+    /* opacity: 1; */
+}
+.project{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 12px;
+    
+}
+.projectimage{
+    display: block;
+    width: 400px;
+    height: auto;
+}
+
+.projectdesp{
+    padding: 60px 80px;
+    font-size: 24px;
+    line-height: 36px;
+}
+.projectname{
+    font-size: 32px;
+}
